@@ -1,0 +1,34 @@
+// text colors
+$text-light: #fff;
+$text-dark: #222F33;
+$text-dark-green: #222F33;
+$text-light-gray: #646D70;
+
+// fonts
+%font-regular {
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+%font-regular-small {
+    font-family: Rubik;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+%font-subtitle {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    font-feature-settings: 'clig' off, 'liga' off;
+    opacity: 0.8;
+}
+
+%font-title {
+    color: $text-light;
+    font-family: Merriweather;
+    font-size: 30px;
+    font-feature-settings: 'clig' off, 'liga' off; 
+}
+
