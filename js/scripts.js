@@ -42,10 +42,10 @@ function addSwipeHandling(element, items) {
         endTime = Date.now()
         const timeDiff = endTime - startTime;
 
-        if(timeDiff > 150 && timeDiff < 500) {
-            if ((touchStartX - touchEndX > 70) && isLeftBorder) {
+        if(timeDiff > 100 && timeDiff < 500) {
+            if ((touchStartX - touchEndX > 40) && isLeftBorder) {
                 sortSlides(items, actualItem + 1);
-            } else if ((touchStartX - touchEndX < -70) && isRightBorder) {
+            } else if ((touchStartX - touchEndX < -40) && isRightBorder) {
                 sortSlides(items, actualItem - 1);
             }
         }
