@@ -206,6 +206,7 @@ h1, h2, h3, h4, h5, h6 {
 /**********/
 /* mobile navigation */
 .mobile-nav {
+  display: none;
   position: absolute;
   width: 20%;
   height: 100%;
@@ -215,6 +216,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: transparent;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
+}
+@media (max-width: 767.8px) {
+  .mobile-nav {
+    display: block;
+  }
 }
 .mobile-nav.active {
   width: 70%;
